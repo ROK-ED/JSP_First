@@ -7,7 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-시작
-<a href="a.jsp">계산기</a>
+<!-- 시작
+<a href="a.jsp">계산기</a> -->
+
+<%
+
+response.sendRedirect("emplist.do");
+
+%>
 </body>
 </html>

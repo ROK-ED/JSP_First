@@ -16,7 +16,7 @@
 		<url-pattern>/sample.do</url-pattern>
 	</servlet-mapping>
 	 -->
-	<servlet>
+	<!-- <servlet>
 		<servlet-name>formServlet</servlet-name>
 		<servlet-class>com.edu.FormServlet</servlet-class>
 	</servlet>
@@ -24,6 +24,16 @@
 	<servlet-mapping>
 		<servlet-name>formServlet</servlet-name>
 		<url-pattern>/formServlet.do</url-pattern>
+	</servlet-mapping> -->
+	
+	<servlet>
+		<servlet-name>FrontControl</servlet-name>
+		<servlet-class>com.edu.controller.FrontController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FrontControl</servlet-name>
+		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
 
 	<welcome-file-list>
